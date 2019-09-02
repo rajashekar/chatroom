@@ -4,7 +4,6 @@ package edu.udacity.java.nano.chat;
  * WebSocket message model
  */
 public class Message {
-    // TODO: add message model.
     private String type;
     private String username;
     private String msg;
