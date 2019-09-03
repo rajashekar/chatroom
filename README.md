@@ -1,21 +1,22 @@
-# Chat Room
-Complete the chat room application implementation using WebSocket.
+# Chat Room Project
+This Project is done as part of Udacity Java developer course. The purpose of the project is to understand the concepts of Spring boot application and Websocket concepts. 
 
 ## Background
 WebSocket is a communication protocol that makes it possible to establish a two-way communication channel between a
 server and a client.
 
-## Instruction
-### Implement the message model
-Message model is the message payload that will be exchanged between the client and the server. Implement the Message
-class in chat module. Make sure you cover all there basic actions.
-1. ENTER
-2. CHAT
-3. LEAVE
+## Pre-requisites
+- JDK 1.8
+- Maven 3.6.1 - https://maven.apache.org/download.cgi
 
-### Complete WebSocketChatServer
-Implement all TODOs inside WebSocketChatServer follow each method description.
+## Instructions
+```
+git clone https://github.com/rajashekar/chatroom.git
+cd chatroom
+mvn spring-boot:run
+```
+Go to `http://localhost:8080` in browser
 
-### Run the application with command
-mvn build; mvn spring-boot:run
+## Contributing
+This repository is done as part of Udacity Java developer. Therefore, most likely will not accept any pull requests. 
 
