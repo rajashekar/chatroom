@@ -14,6 +14,8 @@ server and a client.
 git clone https://github.com/rajashekar/chatroom.git
 cd chatroom
 mvn spring-boot:run
+or 
+java -jar chatroom-starter-0.0.1-SNAPSHOT.jar
 ```
 Go to `http://localhost:8080` in browser
 

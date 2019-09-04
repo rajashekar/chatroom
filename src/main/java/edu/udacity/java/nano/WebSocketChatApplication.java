@@ -22,7 +22,7 @@ public class WebSocketChatApplication {
      */
     @GetMapping("/")
     public ModelAndView login() {
-        return new ModelAndView("/login");
+        return new ModelAndView("login");
     }
 
     /**
@@ -33,7 +33,7 @@ public class WebSocketChatApplication {
         // store username in session
         request.getSession().setAttribute("username", username);
         // redirect to chat page
-        ModelAndView chat = new ModelAndView("/chat");
+        ModelAndView chat = new ModelAndView("chat");
         chat.addObject("username", username);
         return chat;
     }
