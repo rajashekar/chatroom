@@ -1,5 +1,5 @@
 # Chat Room Project
-This Project is done as part of Udacity Java developer course. The purpose of the project is to understand the concepts of Spring boot application and Websocket concepts. 
+The purpose of the project is to understand the concepts of Spring boot application and Websocket concepts. 
 
 ## Background
 WebSocket is a communication protocol that makes it possible to establish a two-way communication channel between a
