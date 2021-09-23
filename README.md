@@ -1,5 +1,5 @@
 # Chat Room Project
-The purpose of the project is to understand the concepts of Spring boot application and Websocket concepts. 
+Chartroom built using of Spring boot application and Websocket concepts. 
 
 ## Background
 WebSocket is a communication protocol that makes it possible to establish a two-way communication channel between a
@@ -18,7 +18,3 @@ or
 java -jar chatroom-starter-0.0.1-SNAPSHOT.jar
 ```
 Go to `http://localhost:8080` in browser
-
-## Contributing
-This repository is done as part of Udacity Java developer. Therefore, most likely will not accept any pull requests. 
-
